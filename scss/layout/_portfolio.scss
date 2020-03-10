@@ -15,6 +15,7 @@
       left: 0;
       transition: $transition-base;
       opacity: 0;
+      border-radius: 50%;
       background-color: fade-out($primary, .1);
       &:hover {
         opacity: 1;
@@ -26,6 +27,9 @@
   }
 }
 
+.circle {
+  border-radius: 50%;
+}
 // Styling for the portfolio modals
 .portfolio-modal {
   .portfolio-modal-title {
