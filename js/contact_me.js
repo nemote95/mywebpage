@@ -1,5 +1,9 @@
-$(function() {
 
+function send_email() {
+  window.open('mailto:nemote95@gmail.com');
+
+/*
+// TODO: use a form
   $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
     preventSubmit: true,
     submitError: function($form, event, errors) {
@@ -69,7 +73,8 @@ $(function() {
   });
 });
 
-/*When clicking on Full hide fail/success boxes */
+//When clicking on Full hide fail/success boxes
 $('#name').focus(function() {
   $('#success').html('');
-});
+*/
+};
