@@ -9,6 +9,14 @@ express()
   .get('/', (req, res) => {
     res.render('index')
 
-})
+   })
+   .get('/covid19', (req, res) => {
+    var csv = require("csvtojson");
+    csv()
+    .fromFile("../covid19-nz/covid19-nz.csv")
+    .then((data)=>{
+        res.render('draw_covid_data',{data:data})
+        });
+    })
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
