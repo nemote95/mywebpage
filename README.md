@@ -1,1 +1,1 @@
-Thi repository is for mywebpage available on [nemote95.github.io](https://nemote95.github.io) .
+Thi repository is for my webpage available on [negar.xyz](https://negr.xyz) .
